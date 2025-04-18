@@ -1,7 +1,10 @@
 # MisBot
 Repository for MisBot, a dataset including annotations of misinformation and social bots on Weibo.
 
-We have published the preprocessed data on Baidu Disk (uploading...). We are considering employing other platforms to uphold MisBot.
+We have published the preprocessed data on Baidu Disk: link：https://pan.baidu.com/s/1EYf_kcI9jn8e0fs4OwlwEA password：i8na
+
+
+We are considering employing other platforms to uphold MisBot.
 
 Besides, we are working hard to organize the raw data and upload it. Since MisBot is huge and contains a lot of details, feel free to ask me if you have any questions about MisBot.
 
