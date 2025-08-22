@@ -1,11 +1,154 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>我的仓库主页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Math render -->
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+
+    <title>MisBot</title>
+    <link rel="shortcut icon" href="./img/placeholder.png">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--        <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--        <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">-->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./css/project.css">
 </head>
-<body>
-    <h1>欢迎来到我的仓库</h1>
-    <p>这是一个简单的HTML格式的仓库主页。</p>
+
+<body data-new-gr-c-s-check-loaded="14.1010.0">
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a class=" navbar-brand" href="#">MisBot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Authors">Authors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Intro">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Citation">Citation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header Banner -->
+    <header class="page-header" role="banner">
+        <h1 class="project-name">
+            <!-- <img src="./img/3124850.svg" alt="Logo" height="50px"> -->
+            MisBot
+        </h1>
+        <h2 class="project-tagline">
+            How Do Social Bots Participate in Misinformation Spread? <br> A Comprehensive Dataset and Analysis
+        </h2>
+    </header>
+
+
+    <div class="section" id='Authors'>
+        <heading>
+            Authors
+        </heading>
+        <p>
+            Herun Wan, Minnan Luo, Zihan Ma, Guang Dai, and Xiang Zhao
+        </p>
+    </div>
+
+    <div class="section" id='Resources'>
+        <heading>
+            Resources
+        </heading>
+        <br><br>
+        <center>
+        <a class="btn btn-lg btn-info" href="https://arxiv.org/abs/2408.09613" role="button">Paper »</a>
+        <a class="btn btn-lg btn-warning" href="https://github.com/whr000001/MisBot" role="button">Repository »</a>
+        <a class="btn btn-lg btn-secondary" href="https://pan.baidu.com/s/1EYf_kcI9jn8e0fs4OwlwEA?pwd=i8na" role="button">Dataset Download »</a>
+        </center>
+    </div>
+
+    <!-- About MisBot -->
+    <div class="section" id='Intro'>
+        <heading>
+            Introduction
+        </heading>
+        <img src="./img/overview.png" style="width: 100%; padding-top: 1em">
+        <br><br>
+
+        <p>
+            Social media platforms provide an ideal environment to spread misinformation, where social bots can accelerate the spread.
+            This paper explores the interplay between social bots and misinformation on the Sina Weibo platform.
+            We construct a large-scale dataset that includes annotations for both misinformation and social bots, named <strong>MisBot</strong>.
+            From the misinformation perspective, the dataset is multimodal, containing 11,393 pieces of misinformation and 16,416 pieces of verified information.
+            From the social bot perspective, this dataset contains 65,749 social bots and 345,886 genuine accounts, annotated using a weakly supervised annotator.
+            Extensive experiments demonstrate <strong>the comprehensiveness of the dataset</strong>, <strong>the clear distinction between misinformation and real information</strong>, and <strong>the high quality of social bot annotations</strong>.
+            Further analysis illustrates that: <strong>(i) social bots are deeply involved in information spread</strong>; <strong>(ii) misinformation with the same topics has similar content, providing the basis of echo chambers, and social bots would amplify this phenomenon</strong>; and <strong>(iii) social bots generate similar content aiming to manipulate public opinions</strong>.
+        </p>
+    </div>
+
+
+
+    <!-- Citation -->
+    <div class="section" id="Citation" >
+        <heading>
+            Citation
+        </heading>
+        <p>
+            If our work helps you, please cite us:
+        </p>
+        <pre class="bibtax">@article{wan2024social,
+title={How Do Social Bots Participate in Misinformation Spread? A Comprehensive Dataset and Analysis},
+author={Wan, Herun and Luo, Minnan and Ma, Zihan and Dai, Guang and Zhao, Xiang},
+journal={arXiv preprint arXiv:2408.09613},
+year={2024}
+}</pre>
+    </div>
+
+    <div class="section" id="Contact">
+        <heading>
+            Contact
+        </heading>
+        <p>
+            If you have any questions, you could submit an issue on GitHub or contact Herun Wan using wanherun@stu.xjtu.edu.cn.
+        </p>
+    </div>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <!-- Necessary for user interaction -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+
 </body>
+
 </html>
