@@ -1,10 +1,10 @@
 # MisBot
 
-The official repository for paper *How Do Social Bots Participate in Misinformation Spread? A Comprehensive Dataset and Analysis*, which is accepted in EMNLP 2025.
+The official repository for paper [*How Do Social Bots Participate in Misinformation Spread? A Comprehensive Dataset and Analysis*](https://arxiv.org/abs/2408.09613), which is accepted in EMNLP 2025.
 
-We have published MisBot on Baidu Disk:
+The homepage of MisBot: https://whr000001.github.io/MisBot/
 
-link：https://pan.baidu.com/s/1h7ga9yDBZ9JI4VQsXXptdQ?pwd=8dtl
+We have published MisBot on Baidu Disk: https://pan.baidu.com/s/1h7ga9yDBZ9JI4VQsXXptdQ?pwd=8dtl
 
 Due to privacy concerns, we only upload the data after removing the private information. **If you have downloaded the previous version, please remove it and download the newest one.**
 
