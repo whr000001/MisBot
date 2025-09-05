@@ -26,7 +26,7 @@ MisBot has two subsets: '*Information_Instances*' and '*User_Instances*':
   - '*verified_information.jsonl*': The information instances from the verified news accounts.
   - '*trend_information.jsonl*': The information instances from the trend in the Weibo platform.
   - 'imgs.zip': The related images.
-  - 'videos.zip': The related videos.
+  - 'videos.zip': The related videos. We have sampled frames of each video instance. If you need the original data, please contact Herun Wan through *wanherun at stu.xjtu.edu.cn*.
 - '*User_Instances*':
   - '*train_data.jsonl*': 99,874 annotated Weibo users that are annotated by human annotators.
   - '*train_data_sampled.jsonl*': The active annotated Weibo users.
