@@ -29,10 +29,15 @@ If you find our work interesting/helpful, please consider citing MisBot:
 Feel free to open issues in this repository! Instead of emails, GitHub issues are much better at facilitating a conversation between you and our team to address your needs. You can also contact Herun Wan through *wanheruna at stu.xjtu.edu.cn*.
 
 ## Updating
-20250925
+
+#### 20250925
+
 - We have uploaded the newest version of MisBot, which masks the information that could determine the users on the Weibo platform. If you have downloaded the previous version, please remove it and download the newest one.
-20250820
+  
+#### 20250820
+  
 - Our work is accepted by EMNLP 2025! 🎉🎉🎉
-20250418
+  
+#### 20250418
 - We have uploaded the preprocessed data and a part of the raw data.
 - We are considering employing other platforms to upload MisBot.
