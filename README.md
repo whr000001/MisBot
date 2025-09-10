@@ -10,7 +10,7 @@ Due to privacy concerns, we only upload the data after removing the private info
 
 If you need the original data, please contact Herun Wan through *wanherun at stu.xjtu.edu.cn* and state the purpose of use.
 
-## What you can get from MiSBot
+## What you can get from MisBot
 
 Note that we modified MisBot slightly, so some statistics are slightly different from those reported in the paper.
 
@@ -51,7 +51,7 @@ Feel free to open issues in this repository! Instead of emails, GitHub issues ar
 
 ## Updating
 
-#### 20250925
+#### 20250825
 
 - We have uploaded the newest version of MisBot, which masks the information that could determine the users on the Weibo platform. If you have downloaded the previous version, please remove it and download the newest one.
   
