@@ -6,6 +6,10 @@ The homepage of MisBot: https://whr000001.github.io/MisBot/
 
 We have published MisBot on Baidu Disk: https://pan.baidu.com/s/1h7ga9yDBZ9JI4VQsXXptdQ?pwd=8dtl
 
+We also provide the textual part of MisBot on Google Drive if you can not access Baidu Disk: https://drive.google.com/drive/folders/1IfXTZjYHkgoolY1s8f20EdbG95L-1qb2?usp=sharing
+
+If you need the images and videos but cannot access Baidu Disk, please email to me.
+
 Due to privacy concerns, we only upload the data after removing the private information. **If you have downloaded the previous version, please remove it and download the newest one.**
 
 If you need the original data, please contact Herun Wan through *wanherun at stu.xjtu.edu.cn* and state the purpose of use.
